@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoricalChhattisgarh">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/readmorebtn"
+                    android:layout_width="379dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@drawable/button_rounded"
+                    android:text="HISTORICAL SITES"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+
+                <!-- <TextView
+
+                     android:id="@+id/headertext"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_centerInParent="true"
+                     android:fontFamily="sans-serif"
+                     android:text="HISTORICAL SITE"
+                     android:textColor="@color/colorAccent"
+                     android:textSize="30sp" /> -->
+
+            </RelativeLayout>
+
+            <GridLayout
+                android:id="@+id/home_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:padding="14dp"
+                android:rowCount="2">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/historicalchhattisgarh1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="277dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/hischattisgarh1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="THE BASTAR PALACE: Bastar Palace is an archaic palace which was constructed when the Kings of Bastar moved their capital to Jagdalpur. The palace has intriguing wall cravings on the walls that adds to its beauty.
+ It is in every sense an architectural marvel that speaks boldly of the bravery of the rulers who ruled there.
+"
+                            android:textAllCaps="false"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/historicalchhattisgarh2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="277dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/hischattisgarh2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="BHORAMDEO TEMPLE: If you are a history lover, Bhoramdeo Temple is one place that you simply cannot afford to miss. It will give you a feeling of being a part of that historical era. Built between the 7th to the 11th centuries, the Bhoramdeo
+Temple is referred to as Khajuraho of Chhattisgarh by many. Nestled amidst the magnificent setting of mighty Maikal mountains, the top of the temple offers spectacular views.
+"
+                            android:textAllCaps="false"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/historicalchhattisgarh3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="277dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/hischattisgarh3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="PALACE KAWARDHA: One major draw card to this historical place in Chhattisgarh is its very location. The palace is situated on Maikal Ranges at 941 meters altitude above sea level.
+Situated on a vast 11 acre land, you will be taken aback by the beauty of this lovely garden. It was constructed in the 1930s and back then stones and marbles
+were used to carry out the construction of the palace. It is indeed a magnificent example of the culture of the place.
+ "
+                            android:textAllCaps="false"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/historicalchhattisgarh4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="277dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/hischattisgarh4" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="LAXMAN TAMPLE: Laxman Temple is one of the finest brick temples of India. Embellished with precise constructions and exquisite carvings, it is indeed one of the most
+beautiful temples of Chhattisgarh. It is also one of the oldest temples in the city and has a very traditional and ethnic appeal. Towards the top entrance of the temple, you’ll see a Sheshnaag which acts as an umbrella to Lord Shiva.
+While on the sides of the entrance, there are erotic carvings, magnificent Krishna Leela ornamental symbols and beautiful incarnations of Load Vishnu. Ever year, the temple is visited by thousands of visitors from not only across the country
+
+ "
+                            android:textAllCaps="false"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

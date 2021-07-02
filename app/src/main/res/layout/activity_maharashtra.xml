@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Maharashtra">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <GridLayout
+                android:id="@+id/home_grid"
+                android:layout_width="wrap_content"
+                android:layout_height="274dp"
+                android:layout_weight="8"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:padding="14dp"
+                android:rowCount="30">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/maharashtra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/maharashtra" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="maharashtra"
+                            android:textAllCaps="true"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                android:text="Maharashtra is a state in
+ the western peninsular region of India occupying a substantial portion of the Deccan Plateau. It is the
+ second-most populous state and third-largest state by area. Mumbai is the capital city of Maharashtra. Maharashtra was created as a Marathi
+ speaking State. t is also the world's third-most
+populous subnational entity. Maharashtra is the third largest state by area in India. Maharashtra is the wealthiest state by all major economic parameters and also the most
+ industrialised state in India."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                android:text=" Language: The official language is Marathi although different regions have their own dialects. It is
+ native to the Maharashtra state, and is its main language. Over 83.1 million people speak Marathi, making it the third-most spoken language in India, and 10th
+most-spoken native language in the world. English is also spoken in Maharashtra, mostly in urban areas.
+ Konkani, Kannada and Gujarati are also spoken in
+ some areas. Other major dialects include Varhadi spoken in the Vidarbha region and Dangi spoken
+near the Maharashtra-Gujarat border."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText"  />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                android:text="Climate: Maharashtra has a tropical climate, with three distinct seasons; hot (March–May), rainy
+(June–September, and mild (October–February). However, dew and hail also occur sometimes,
+depending upon the seasonal weather. The winter between October to February is followed by
+summer between March and May and the monsoon season between June and September.
+Summers (March, April and May) are extremely hot, the temperature rises from 22 °C to as high as
+ 43 °C during the summer. The rainfall starts normally in the first week of June. July is the wettest
+month in Maharashtra, while August also gets substantial rain. "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/hismah"
+                android:layout_width="278dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_rounded"
+                android:text="HISTORICAL PLACES"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/parkmah"
+                android:layout_width="278dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_rounded"
+                android:text="PARKS"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/museummah"
+                android:layout_width="278dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_rounded"
+                android:text="MUSEUMS"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/relmah"
+                android:layout_width="278dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_rounded"
+                android:text="RELIGIOUS PLACES"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/hotelmah"
+                android:layout_width="278dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_rounded"
+                android:text="HOTELS"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

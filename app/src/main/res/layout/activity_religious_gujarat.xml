@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReligiousGujarat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/readmorebtn"
+                    android:layout_width="379dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@drawable/button_rounded"
+                    android:text="RELIGIOUS PLACES"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+
+                <!-- <TextView
+
+                     android:id="@+id/headertext"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_centerInParent="true"
+                     android:fontFamily="sans-serif"
+                     android:text="HISTORICAL SITE"
+                     android:textColor="@color/colorAccent"
+                     android:textSize="30sp" /> -->
+
+            </RelativeLayout>
+
+            <GridLayout
+                android:id="@+id/home_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:padding="14dp"
+                android:rowCount="2">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/kulnoor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="277dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/religiousgujarat1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Swaminarayan Temple, Ahmedabad: Located in the Kalupur area of Ahmedabad, Shri Swaminarayan Temple (also known as Akshardham Temple) is a shrine dedicated to Narayan Dev. This splendid temple was built in the year 1822 on the instructions of Swaminarayan, who was the foun
+"
+                            android:textAllCaps="false"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/vijayawada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/religiousgujarat2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Dwarkadhish Temple, Dwarka : Dwarkadhish Temple also known as the Jagat Mandir, is a Chalukya styled architecture, dedicated to Lord Krishna. The town of Dwarka has its history dated back to the Kingdom of Dwaraka in Mahabharata. The five storied main shrine is grand and marvelous in itself constructed of limestone and sand. The 2200-year-old architecture, is
+ believed to be built by Vajranabha, who constructed it over the land reclaimed from the sea by Lord Krishna.
+
+"
+                            android:textAllCaps="false"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/guntur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="277dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/religiousgujarat3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Somnath Temple, Somnath : The Somnath Jyotirlinga Temple is first of the twelve Jyotirlinga shrines of Lord Shiva. It is located on the western coast of Gujarat and is one of the oldest temples of the country. It has been mentioned in ancient texts like Shreemad Bhagavat Gita, Skandpuran, Shivpuran and Rig-Veda which signifies the importance of this temple as one of the most celebrated pilgrimage sites. The temple is located on the ancient Triveni Sangam or the confluence of three rivers - Kapila, Hiran, and Saraswati.
+The temple is known as an eternal shrine owing to its perseverance against the test of time. It has withstood several destructions in the past and still has not lost its beauty."
+                            android:textAllCaps="false"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/amaravathi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/religiousgujarat4" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Kirti Mandir, Porbandar Overview: Kirti Mandir, a pleasant and bright place of respect, was built in the honour of Mahatma Gandhi and his wife Kasturba Gandhi in Porbandar in the Indian State of Gujarat. The ancestral house of Mahatma Gandhi is located right beside the temple. Visitors can enter the ancestral home from the temple. Walking through its corridors
+and witnessing the daylight coming through the teal coloured window frames is a mesmerising experience.
+"
+                            android:textAllCaps="false"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20sp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

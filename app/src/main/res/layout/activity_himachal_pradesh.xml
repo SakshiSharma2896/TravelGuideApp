@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HimachalPradesh">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <GridLayout
+            android:id="@+id/home_grid"
+            android:layout_width="wrap_content"
+            android:layout_height="274dp"
+            android:layout_weight="8"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:padding="14dp"
+            android:rowCount="30">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/hp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/hp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="himachal Pradesh"
+                        android:textAllCaps="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="15dp"
+            android:text="Himachal Pradesh is a state in the northern part of India. It is situated
+in the Western Himalayas. Himachal Pradesh is spread across valleys with many perennial rivers flowing through them. Almost
+ 90% of the state's population lives in rural areas. Agriculture, horticulture, hydropower and tourism
+ are important constituents of the state's economy. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="15dp"
+            android:text=" Language: Hindi is the official language of Himachal Pradesh and is spoken by the majority of the population
+as a lingua franca. Sanskrit is the additional official language of the state. Most of the population,
+ however, speak natively one or another of the Himachali languages (locally also known as Pahari), a
+subgroup of the Indo-Aryan languages that includes Mandeali, Kangri, Kullu, Bilaspuri and others.
+Additional Indo-Aryan languages spoken in the state include Hindi, Punjabi (native to 4.4% of the
+ population), Nepali (1.3%) and Kashmiri (0.8%). In parts of the state there are speakers of Tibeto-
+Burman languages like Kinnauri (1.2%), Tibetan (0.3%), Lahauli (0.16%), Pattani (0.12%), and others."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="15dp"
+            android:text="Climate: Due to extreme variation in elevation, great variation occurs in the climatic conditions of Himachal.
+The climate varies from hot and subhumid tropical in the southern tracts to, with more elevation,
+ cold, alpine, and glacial in the northern and eastern mountain ranges.  Himachal experiences three seasons: summer, winter, and rainy season. Summer lasts from
+ mid-April till the end of June and most parts become very hot (except in the alpine zone which
+ experiences a mild summer) with the average temperature ranging from 28 to 32 °C (82 to 90 °F).
+Winter lasts from late November till mid-March. Snowfall is common in alpine tracts ."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/hishim"
+            android:layout_width="278dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_rounded"
+            android:text="HISTORICAL PLACES"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/parkhim"
+            android:layout_width="278dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_rounded"
+            android:text="PARKS"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/museumhim"
+            android:layout_width="278dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_rounded"
+            android:text="MUSEUMS"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/relhim"
+            android:layout_width="278dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_rounded"
+            android:text="RELIGIOUS PLACES"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/hotelhim"
+            android:layout_width="278dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_rounded"
+            android:text="HOTELS"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

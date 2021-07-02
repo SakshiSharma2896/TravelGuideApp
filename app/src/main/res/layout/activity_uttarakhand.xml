@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Uttarakhand">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <GridLayout
+                android:id="@+id/home_grid"
+                android:layout_width="wrap_content"
+                android:layout_height="274dp"
+                android:layout_weight="8"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:padding="14dp"
+                android:rowCount="30">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/uk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/uk" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Uttarakhand"
+                            android:textAllCaps="true"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                android:text="Uttarakhand ( formerly known as Uttaranchal ), is a state in the
+ northern part of India. It is often referred to as the 'Devabhumi' (literally Land of the Gods)
+due to numerous Hindu temples and pilgrimage centres found throughout the state. Uttarakhand is
+ known for the natural environment of the Himalayas, the Bhabar and the Terai. On 9 November
+2000, Uttarakhand became the 27th state of the Republic of India, being carved from the Himalayan
+ districts of Uttar Pradesh. The capital of Uttarakhand is Dehradun, the largest city of the
+state, which is a railhead. The High Court of the state is located in Nainital. According to the 2011 Census of India, Uttarakhand has a
+population of 10,086,292, making it the 20th most populous state in India.
+Uttarakhand's name is derived from the Sanskrit words uttara  meaning 'north', and khanda
+meaning 'land', altogether simply meaning 'Northern Land'."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                android:text=" Language: The official language of Uttarakhand is Hindi,which is spoken natively by 43% of the population
+(primarily concentrated in the south),and also used throughout the state as a lingua franca.
+ Additionally, the classical language Sanskrit has been declared a second official language.The other major regional languages of
+ Uttarakhand are Garhwali, which is spoken by 23% of the
+population mostly in the western half of the state, Kumaoni, spoken in the eastern half and native to
+ 20%, and Jaunsari, whose speakers are concentrated in Dehradun district in the southwest and make
+ up 1.3% of the state's population. There are also sizeable populations of speakers of Urdu (4.2%) and
+Punjabi (2.6%), both mostly found in the southern districts, Bengali (1.5%) and Bhojpuri (0.95%),
+both mainly present in Udham Singh Nagar districts in the south-east, and Nepali (1.1%, found
+ throughout the state, but most notably in Dehradun and Uttarkashi)."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText"  />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                android:text="Climate: The climate in the northern part of Uttarakhand is typically Himalayan. This mountain range itself
+exerts an appreciable extent of influence on monsoon and rainfall patterns. Within the Himalayas,
+ climate differs depending on altitude and position. Climate ranges from subtropical in the southern foothills, averaging summer temperatures of about
+30° C (about 86° F) and winter temperatures of about 18° C (about 64° F)."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/hisuk"
+                android:layout_width="278dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_rounded"
+                android:text="HISTORICAL PLACES"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/parkuk"
+                android:layout_width="278dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_rounded"
+                android:text="PARKS"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/museumuk"
+                android:layout_width="278dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_rounded"
+                android:text="MUSEUMS"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/reluk"
+                android:layout_width="278dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_rounded"
+                android:text="RELIGIOUS PLACES"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/hoteluk"
+                android:layout_width="278dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_rounded"
+                android:text="HOTELS"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

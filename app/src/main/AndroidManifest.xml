@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.travelguide">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".MapsActivity" />
+        <activity android:name=".EducationPlaces" />
+        <activity android:name=".AdventurePlace" />
+        <activity android:name=".HillyAreas" />
+        <activity android:name=".PlainPlaces" />
+        <activity android:name=".FamilyTrip" />
+        <activity android:name=".SoloPlace" />
+        <activity android:name=".ColdPlaces" />
+        <activity android:name=".HotPlaces" />
+        <activity android:name=".TempRecommendation" />
+        <activity android:name=".HotelWest" />
+        <activity android:name=".ReligiousWest" />
+        <activity android:name=".MuseumWest" />
+        <activity android:name=".ParkWest" />
+        <activity android:name=".HistoricalWest" />
+        <activity android:name=".HotelUttarakhand" />
+        <activity android:name=".ReligiousUttarakhand" />
+        <activity android:name=".MuseumUttarakhand" />
+        <activity android:name=".ParkUttarakhand" />
+        <activity android:name=".HistoricalUttarakhand" />
+        <activity android:name=".HotelUttar" />
+        <activity android:name=".ReligiousUttar" />
+        <activity android:name=".MuseumUttar" />
+        <activity android:name=".ParkUttar" />
+        <activity android:name=".HistoricalUttar" />
+        <activity android:name=".HotelRajasthan" />
+        <activity android:name=".ReligiousRajasthan" />
+        <activity android:name=".MuseumRajasthan" />
+        <activity android:name=".ParkRajasthan" />
+        <activity android:name=".HistoricalRajasthan" />
+        <activity android:name=".HotelPunjab" />
+        <activity android:name=".ReligiousPunjab" />
+        <activity android:name=".MuseumPunjab" />
+        <activity android:name=".ParkPunjab" />
+        <activity android:name=".HistoricalPunjab" />
+        <activity android:name=".HotelMaha" />
+        <activity android:name=".ReligiousMaha" />
+        <activity android:name=".MuseumMaha" />
+        <activity android:name=".ParkMaha" />
+        <activity android:name=".HistoricalMaha" />
+        <activity android:name=".HotelKarnataka" />
+        <activity android:name=".ReligiousKarnataka" />
+        <activity android:name=".MuseumKarnataka" />
+        <activity android:name=".ParkKarnataka" />
+        <activity android:name=".HistoricalKarnataka" />
+        <activity android:name=".HotelJharkhand" />
+        <activity android:name=".ReligiousJharkhand" />
+        <activity android:name=".MuseumJharkhand" />
+        <activity android:name=".ParkJharkhand" />
+        <activity android:name=".HistoricalJharkhand" />
+        <activity android:name=".HtelJammu" />
+        <activity android:name=".ReligiousJammu" />
+        <activity android:name=".MuseumJammu" />
+        <activity android:name=".ParkJammu" />
+        <activity android:name=".HistoricalJammu" />
+        <activity android:name=".HotelHimachal" />
+        <activity android:name=".ReligiousHimachal" />
+        <activity android:name=".MuseumHimachal" />
+        <activity android:name=".ParkHimachal" />
+        <activity android:name=".HistoricalHimachal" />
+        <activity android:name=".HotelHaryana" />
+        <activity android:name=".ReligiousHaryana" />
+        <activity android:name=".MuseumHaryana" />
+        <activity android:name=".ParkHaryana" />
+        <activity android:name=".HistoricalHaryana" />
+        <activity android:name=".HotelGujarat" />
+        <activity android:name=".ReligiousGujarat" />
+        <activity android:name=".MuseumGujarat" />
+        <activity android:name=".ParkGujarat" />
+        <activity android:name=".HistoricalGujarat" />
+        <activity android:name=".GoogleMap" />
+        <activity android:name=".HotelGoa" />
+        <activity android:name=".ReligiousGoa" />
+        <activity android:name=".MuseumGoa" />
+        <activity android:name=".ParkGoa" />
+        <activity android:name=".HistoricalGoa" />
+        <activity android:name=".HotelDelhi" />
+        <activity android:name=".ReligiousDelhi" />
+        <activity android:name=".MuseumDelhi" />
+        <activity android:name=".ParkDelhi" />
+        <activity android:name=".HistoricalDelhi" />
+        <activity android:name=".HotelChhattisgarh" />
+        <activity android:name=".ReligiousChhattisgarh" />
+        <activity android:name=".MuseumChhattisgarh" />
+        <activity android:name=".ParkChhattisgarh" />
+        <activity android:name=".HistoricalChhattisgarh" />
+        <activity android:name=".HotelBihar" />
+        <activity android:name=".ReligiousBihar" />
+        <activity android:name=".MuseumBihar" />
+        <activity android:name=".ParkBihar" />
+        <activity android:name=".HistoricalBihar" />
+        <activity android:name=".HotelAssam" />
+        <activity android:name=".ReligiousAssam" />
+        <activity android:name=".MuseumAssam" />
+        <activity android:name=".ParkAssam" />
+        <activity android:name=".HistoricalAssam" />
+        <activity android:name=".HotelArunachal" />
+        <activity android:name=".ReligiousArunachal" />
+        <activity android:name=".MuseumArunachal" />
+        <activity android:name=".ParkArunachal" />
+        <activity android:name=".HistoricalArunachal" />
+        <activity android:name=".HotelAndhra" />
+        <activity android:name=".ReligiousAndhra" />
+        <activity android:name=".MuseumAndhra" />
+        <activity android:name=".ParkAndhra" />
+        <activity android:name=".HistoricalAndhra" />
+        <activity android:name=".RecyclerActivity" />
+        <activity android:name=".RateUs" />
+        <activity
+            android:name=".NavigationPage"
+            android:label="@string/title_activity_navigation_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tripura"
+            android:label="Tripura" />
+        <activity
+            android:name=".Telangana"
+            android:label="Telangana" />
+        <activity
+            android:name=".TamilNadu"
+            android:label="Tamil Nadu" />
+        <activity
+            android:name=".Rajasthan"
+            android:label="Rajasthan" />
+        <activity
+            android:name=".Odisha"
+            android:label="Odisha" />
+        <activity
+            android:name=".Kerala"
+            android:label="Kerala" />
+        <activity
+            android:name=".Karnataka"
+            android:label="Karnataka" />
+        <activity
+            android:name=".Mizoram"
+            android:label="Mizoram" />
+        <activity
+            android:name=".Jharkhand"
+            android:label="Jharkhand" />
+        <activity
+            android:name=".JammuKashmir"
+            android:label="Jammu Kashmir" />
+        <activity
+            android:name=".HimachalPradesh"
+            android:label="Himachal Pradesh" />
+        <activity
+            android:name=".Punjab"
+            android:label="Punjab" />
+        <activity
+            android:name=".Manipur"
+            android:label="Manipur" />
+        <activity
+            android:name=".Meghalaya"
+            android:label="Meghalaya" />
+        <activity
+            android:name=".Nagaland"
+            android:label="Nagaland" />
+        <activity
+            android:name=".Sikkim"
+            android:label="Sikkim" />
+        <activity
+            android:name=".Maharashtra"
+            android:label="Maharashtra" />
+        <activity
+            android:name=".MadhyaPradesh"
+            android:label="Madhya Pradesh" />
+        <activity
+            android:name=".Harayana"
+            android:label="Harayana" />
+        <activity
+            android:name=".Goa"
+            android:label="Goa" />
+        <activity
+            android:name=".Gujarat"
+            android:label="Gujarat" />
+        <activity
+            android:name=".WestBengal"
+            android:label="West Bengal" />
+        <activity
+            android:name=".Uttarakhand"
+            android:label="Uttarakhand" />
+        <activity
+            android:name=".UttarPradesh"
+            android:label="Uttar Pradesh" />
+        <activity
+            android:name=".Delhi"
+            android:label="Delhi" />
+        <activity
+            android:name=".Chattisgarh"
+            android:label="Chattisgarh" />
+        <activity
+            android:name=".Bihar"
+            android:label="Bihar" />
+        <activity
+            android:name=".Assam"
+            android:label="Assam" />
+        <activity
+            android:name=".ArunachalPradesh"
+            android:label="Arunachal Pradesh" />
+        <activity
+            android:name=".AndhraPradesh"
+            android:label="Andhra Pradesh" />
+        <activity
+            android:name=".Recommendation"
+            android:label="Recommendation" />
+        <activity
+            android:name=".Feedback"
+            android:label="Feedback" />
+        <activity
+            android:name=".StatesPage"
+            android:label="Home" />
+        <activity
+            android:name=".Registration"
+            android:label="Registration" />
+        <activity
+            android:name=".Login"
+            android:label="Login" />
+        <activity
+            android:name=".HomePage"
+            android:label="@string/app_name" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

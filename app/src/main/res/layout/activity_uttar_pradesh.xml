@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UttarPradesh">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <GridLayout
+                android:id="@+id/home_grid"
+                android:layout_width="wrap_content"
+                android:layout_height="274dp"
+                android:layout_weight="8"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:padding="14dp"
+                android:rowCount="30">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/up" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="uttar Pradesh"
+                            android:textAllCaps="true"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                android:text="Uttar Pradesh is a state
+in northern India. With roughly 200 million inhabitants, it is the most populous state in India as well
+as the most populous country subdivision in the world. It was created on 1 April 1937 as the
+United Provinces of Agra and Oudh during British rule, and was renamed Uttar Pradesh in 1950. The
+ state is divided into 18 divisions and 75 districts with the capital being Lucknow.  It covers 243,290 square
+kilometres (93,933 sq mi), equal to 7.34% of the total area of India, and is the fourth-largest Indian
+state by area. Agriculture and service industries are the largest parts of the state's economy.  Hinduism is
+ practised by more than three-fourths of the population, with Islam being the next largest religious
+group."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                android:text=" Language: Hindi is the official language of Uttar Pradesh and is spoken by the majority of the population
+(94.08%), although different regions have their own dialects. These include Awadhi spoken in the
+ Awadh region of eastern Uttar Pradesh, Bhojpuri spoken in the Bhojpuri region of eastern Uttar
+Pradesh, and Braj Bhasha spoken in the Braj region western Uttar Pradesh. Urdu is given the status
+of a second official language, spoken by 5.42% of the population.  Other notable languages
+spoken in the state include Punjabi (0.25%) and Bengali (0.12%)."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText"  />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                android:text="Climate: Uttar Pradesh has a humid subtropical climate and experiences four seasons. The winter in
+January and February is followed by summer between March and May and the monsoon season
+between June and September. Summers are extreme with temperatures fluctuating anywhere
+ between 0 °C and 50 °C in parts of the state coupled with dry hot winds called the Loo. The
+ Gangetic plain varies from semiarid to sub-humid. The mean annual rainfall ranges from 650 mm
+in the southwest corner of the state to 1000 mm in the eastern and southeastern parts of the state.
+The rain in UP can vary from an annual average of 170 cm in hilly areas to 84 cm in Western U.P.
+Typical summer months are from March to June, with maximum temperatures ranging from 30 to
+38 °C (86 to 100 °F). There is low relative humidity of around 20% and dust-laden winds blow
+throughout the season. "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/hisup"
+                android:layout_width="278dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_rounded"
+                android:text="HISTORICAL PLACES"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/parkup"
+                android:layout_width="278dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_rounded"
+                android:text="PARKS"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/museumup"
+                android:layout_width="278dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_rounded"
+                android:text="MUSEUMS"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/relup"
+                android:layout_width="278dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_rounded"
+                android:text="RELIGIOUS PLACES"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/hotelup"
+                android:layout_width="278dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_rounded"
+                android:text="HOTELS"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

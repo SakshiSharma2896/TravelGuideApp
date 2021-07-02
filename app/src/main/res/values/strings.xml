@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TravelGuide</string>
+    <string name="title_activity_navigation_page">Home Page</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Travel Guide</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logout</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Feedback</string>
+    <string name="menu_slideshow">Recommendations</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="map">Map View</string>
+    <string name="facebook_app_id">1143823226099457</string>
+    <string name="fb_login_protocol_scheme">fb1143823226099457</string>
+
+    //rate dialog box
+    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rate_dialog_message">If you like it, Rate it! Thanks for your support!</string>
+    <string name="rate_dialog_ok">Rate It Now</string>
+    <string name="rate_dialog_cancel">Remind Me Later</string>
+    <string name="rate_dialog_no">No, Thanks</string>
+    <string name="title_activity_nearby_places">NearbyPlaces</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

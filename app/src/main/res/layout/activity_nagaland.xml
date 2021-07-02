@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nagaland">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:id="@+id/home_grid"
+                android:layout_width="wrap_content"
+                android:layout_height="274dp"
+                android:layout_weight="8"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:padding="14dp"
+                android:rowCount="30">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nagaland"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/nagaland" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="nagaland"
+                            android:textAllCaps="true"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                android:text="Nagaland  is a state in northeastern India. It borders the state of Assam to the west,
+Arunachal Pradesh and Assam to the north, Myanmar to the east, and Manipur to the south. The state
+capital is Kohima, and the largest city is Dimapur. It has an area of 16,579 square kilometres
+(6,401 sq mi) with a population of 1,980,602 per the 2011 Census of India, making it one of the
+ smallest states of India.Nagaland is one of three states in India where the population is mostly
+ Christian.Nagaland became the 16th state of India on 1 December 1963. Agriculture is the most important economic activity, covering over 70% of the state's
+ economy. Other significant economic activity includes forestry, tourism, insurance,
+ real estate, and miscellaneous cottage industries."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                android:text=" Language:  English as the official language of Nagaland and it is the medium for education in Nagaland.
+Other than English, Nagamese, a creole language based on Assamese, is widely spoken. The major languages spoken as per the 2001 census are Ao (257,500), Konyak (248,002), Lotha
+(168,356), Angami (131,737), Phom (122,454), Sumi (92,884), Yimchungre (92,092), Sangtam
+(84,150), Chakru (83,506), Chang (62,347), Zeme (71,954, covering Zeliang, 61,492 and
+ Zemi, 10,462), Bengali (58,890), Rengma (58,590), Hindi (56,981), Kheza (40,362), Khiamniungan
+(37,752), Nepali (24,222), Pochury (16,681), Kuki (16,846), Assamese (16,183) and Chakhesang
+ (9,544)."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText"  />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                android:text="Climate: Nagaland has a largely monsoon climate with high humidity levels. Annual rainfall averages
+around 1,800–2,500 millimetres (70–100 in), concentrated in the months of May to September.
+Temperatures range from 21 to 40 °C (70 to 104 °F). In winter, temperatures do not generally drop
+below 4 °C (39 °F), but frost is common at high elevations. The state enjoys a healthy, pleasant
+ climate. Summer is the shortest season in the state, lasting for only a few months. The
+temperature during the summer season remains between 16 to 31 °C (61 to 88 °F). Winter often
+arrives early, with bitter cold and dry weather striking certain regions of the state.
+The maximum average temperature recorded in the winter season is 24 °C (75 °F)."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="278dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_rounded"
+                android:text="HISTORICAL PLACES"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="278dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_rounded"
+                android:text="PARKS"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="278dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_rounded"
+                android:text="MUSEUMS"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="278dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_rounded"
+                android:text="RELIGIOUS PLACES"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="278dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_rounded"
+                android:text="HOTELS"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

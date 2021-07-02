@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WestBengal">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:id="@+id/home_grid"
+                android:layout_width="wrap_content"
+                android:layout_height="274dp"
+                android:layout_weight="8"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:padding="14dp"
+                android:rowCount="30">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/wb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="16dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/wb" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="west bengal"
+                            android:textAllCaps="true"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                android:text="West Bengal is a state in the eastern region of India along the
+Bay of Bengal. With over 91 million inhabitants (as of 2011), it is India's fourth-most populous state.
+West Bengal is the thirteenth-largest Indian state, with an area of 88,752 km2 (34,267 sq mi). The state capital is Kolkata (Calcutta) the seventh-largest city in India, and center of the
+third-largest metropolitan area in the country. West Bengal includes the Darjeeling Himalayan hill
+region, the Ganges delta, the Rarh region, and the coastal Sundarbans. The main ethnic group is the
+Bengalis, with Bengali Hindus forming the demographic majority.  Kolkata is known as the
+ 'cultural capital of India'. West Bengal has two World Heritage sites and one of the top tourism
+ destinations in India."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                android:text=" Language: Bengali, the main language of the state, is spoken by much of the population. Other languages
+include Hindi, Santali, Urdu (primarily the language of Muslims), and Nepali
+ (spoken largely in the area of Darjiling). A small number of people speak Kurukh, the language of the
+ Oraon indigenous group. English, together with Bengali, is the language of administration, and
+English and Hindi serve as lingua francas at the national level."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText"  />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                android:text="Climate: West Bengal's climate varies from tropical savanna in the southern portions to humid subtropical in
+ the north. The main seasons are summer, the rainy season, a short autumn, and winter. While the
+summer in the delta region is noted for excessive humidity, the western highlands experience a dry
+ summer like northern India. The highest daytime temperatures range from 38 °C (100 °F) to 45 °C
+ (113 °F). At night, a cool southerly breeze carries moisture from the Bay of Bengal.  Monsoons bring rain to the whole state from June to September.
+ Heavy rainfall of above 250 centimetres (98 in) is observed in the Darjeeling, Jalpaiguri, and
+Cooch Behar district. During the arrival of the monsoons, low pressure in the Bay of Bengal region
+often leads to the formation of storms in the coastal areas. Winter (December–January) is mild over
+ the plains with average minimum temperatures of 15 °C (59 °F). A cold and dry northern wind
+blows in the winter, substantially lowering the humidity level. The Darjeeling Himalayan Hill region
+experiences a harsh winter, with occasional snowfall."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/hiswb"
+                android:layout_width="278dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_rounded"
+                android:text="HISTORICAL PLACES"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/parkwb"
+                android:layout_width="278dp"
+                android:layout_height="61dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_rounded"
+                android:text="PARKS"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/museumwb"
+                android:layout_width="278dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_rounded"
+                android:text="MUSEUMS"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/relwb"
+                android:layout_width="278dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_rounded"
+                android:text="RELIGIOUS PLACES"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/hotelwb"
+                android:layout_width="278dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_rounded"
+                android:text="HOTELS"
+                android:textSize="15sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

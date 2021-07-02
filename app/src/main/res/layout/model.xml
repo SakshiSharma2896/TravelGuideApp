@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/andhraid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+       <!-- <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:orientation="vertical">-->
+
+            <ImageView
+                android:id="@+id/modelImageTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/modelTitleTv"
+                android:layout_centerHorizontal="true"
+                android:src="@color/colorPrimaryDark"
+                />
+
+            <TextView
+                android:id="@+id/modelTitleTv"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:text="Title"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/modelTitleTv"/>
+    </androidx.cardview.widget.CardView>
+
+   <!-- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/modelTitleTv"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:text="Title"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/modelImageTv"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@id/modelTitleTv"
+            android:layout_centerHorizontal="true"
+            android:src="@color/colorPrimaryDark"/>
+    </RelativeLayout>-->
+</androidx.cardview.widget.CardView>

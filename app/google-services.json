@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "56980490081",
+    "firebase_url": "https://travelguide-beafe.firebaseio.com",
+    "project_id": "travelguide-beafe",
+    "storage_bucket": "travelguide-beafe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56980490081:android:7f8e6428f6379f04362720",
+        "android_client_info": {
+          "package_name": "com.example.travelguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56980490081-ev66d7mtnqojkitfjrdhjjfc314el7ol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travelguide",
+            "certificate_hash": "f66a812407e7d41f795eb8fbb9424ba53dcf2610"
+          }
+        },
+        {
+          "client_id": "56980490081-29hudqe8krh2h94jtq9vorths8l2rnuk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwNtuLlP9EecNSOcCFZHwT9UzxWj802Qg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56980490081-29hudqe8krh2h94jtq9vorths8l2rnuk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

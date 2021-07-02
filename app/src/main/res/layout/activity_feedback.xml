@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Feedback"
+        android:background="@color/background">
+
+      <!--  <com.hsalf.smilerating.SmileRating
+            android:id="@+id/smile_rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:background="@drawable/button_rounded"
+            android:text="Submit" />-->
+<!--
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:hint="Username"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <EditText
+        android:id="@+id/feedback"
+        android:layout_width="367dp"
+        android:layout_height="329dp"
+        android:layout_below="@+id/username"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Give Feedback Here...."
+        android:inputType="textMultiLine" />-->
+
+    <Button
+        android:id="@+id/sendfeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button_rounded"
+        android:text="send feedback"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+
+</RelativeLayout>

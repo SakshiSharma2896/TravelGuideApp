@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Login">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/profilelogo"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_below="@+id/profilelogo">
+
+        <EditText
+            android:id="@+id/email1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="text"
+            android:textSize="20sp"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        app:passwordToggleEnabled="true"
+        android:layout_below="@+id/emailtext">
+
+        <EditText
+            android:id="@+id/password1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+
+            tools:ignore="Autofill,HardcodedText" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/passwordtext"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_rounded"
+        android:text="LOGIN"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Don't have an account?Register"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/forgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Forget Password?Recover"
+        android:textColor="@color/com_facebook_button_background_color_pressed"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <!--<Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_rounded"
+        android:text="REGISTER"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:layout_below="@+id/login"/>-->
+
+      <com.google.android.gms.common.SignInButton
+          android:id="@+id/googleLoginBtn"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/forgetPassword"
+          android:layout_marginTop="10dp"
+          android:layout_centerHorizontal="true"/>
+
+<!--
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fblogin_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/googleLoginBtn"/>
+
+-->
+    <!--
+        <Button
+            android:id="@+id/fb"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_rounded"
+            android:text="login via facebook"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />-->
+
+   <!-- <Button
+        android:id="@+id/forgetPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_rounded"
+        android:text="forget password"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:layout_alignParentBottom="true"
+        />-->
+    </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
